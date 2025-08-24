@@ -1,0 +1,49 @@
+body {
+    font-family: 'Times', serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Algerian', Arial, sans-serif;
+    font-size: 2em;
+    text-decoration: double;
+    word-spacing: 1rem;
+    text-align: center;
+    text-indent: 20px;
+    text-shadow: 2px 1px #69efec;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    text-decoration: underline;
+    line-height: 2em;
+}
+
+p::first-letter {
+    font-size: 2em;
+    font-family: 'Pristina', Arial, sans-serif;
+    color: rgb(246, 9, 9);
+}
+
+p::first-line {
+    background-color: rgb(236, 169, 169);
+}
+
+
+article {
+    text-align: center;
+    word-spacing: 0.5em;
+}
+
+option {
+    font-family: 'Pristina', Arial, sans-serif;
+    font-size: 1.5em;
+    text-decoration: double;
+    letter-spacing: 0.5em;
+
+}
+
+input:focus {
+    color: rgb(255, 0, 8);
+}
