@@ -16,7 +16,7 @@ h1 {
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
-    text-decoration: underline;
+    
     line-height: 2em;
     min-width: 400px;
     max-width: 1200px;
@@ -24,8 +24,10 @@ p {
 
 p::first-letter {
     font-size: 2em;
-    font-family: 'Pristina', Arial, sans-serif;
-    color: rgb(246, 9, 9);
+    font-family: 'Brush Script MT', 'Trebuchet MS';
+    font-style: italic;
+    color: rgb(190, 33, 33);
+    text-decoration:dotted;
 }
 
 p::first-line {
