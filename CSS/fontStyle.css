@@ -18,6 +18,8 @@ p {
     font-size: 1.3em;
     text-decoration: underline;
     line-height: 2em;
+    min-width: 400px;
+    max-width: 1200px;
 }
 
 p::first-letter {
