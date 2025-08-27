@@ -3,9 +3,10 @@ body {
     font-size: 16px;
 }
 
-h1 {
+article h1 {
     font-family: 'Algerian', Arial, sans-serif;
- font-size: x-large;
+    font-style: italic;
+    font-size: 3em;
     text-decoration: double;
     word-spacing: 1rem;
     text-align: center;
@@ -28,6 +29,9 @@ p::first-letter {
     font-style: italic;
     color: rgb(190, 33, 33);
     text-decoration:underline;
+}
+p::highlight{
+    font-style: italic;
 }
 
 p::first-line {
