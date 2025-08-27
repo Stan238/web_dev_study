@@ -5,18 +5,18 @@ body {
 
 h1 {
     font-family: 'Algerian', Arial, sans-serif;
-    font-size: 2em;
+ font-size: x-large;
     text-decoration: double;
     word-spacing: 1rem;
     text-align: center;
     text-indent: 20px;
     text-shadow: 2px 1px #69efec;
+    margin: 5px;
 }
 
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
-    
     line-height: 2em;
     min-width: 400px;
     max-width: 1200px;
