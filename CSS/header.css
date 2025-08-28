@@ -6,6 +6,7 @@ header {
     justify-content: space-between;
     margin: 2px;
     padding: 2px;
+    text-align: center;
 }
 
 header img {
@@ -15,10 +16,17 @@ header img {
     padding: 2px;
 }
 
+header a {
+    text-align: center;
+    margin: 5px auto 5px auto;
+    padding: 5px;
+}
+
 a:link {
     color: rgb(20, 106, 255);
     margin: 2px;
     padding: 2px;
+
 }
 
 a:visited {

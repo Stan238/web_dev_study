@@ -1,6 +1,10 @@
 body {
     font-family: 'Times', serif;
     font-size: 16px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 article h1 {
@@ -13,14 +17,18 @@ article h1 {
     text-indent: 20px;
     text-shadow: 2px 1px #69efec;
     margin: 5px;
+
 }
 
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
     line-height: 2em;
-    min-width: 400px;
+    min-width: 200px;
     max-width: 1200px;
+    margin: 2px;
+    padding: 5px;
+
 }
 
 p::first-letter {
@@ -28,9 +36,10 @@ p::first-letter {
     font-family: 'Brush Script MT', 'Trebuchet MS';
     font-style: italic;
     color: rgb(190, 33, 33);
-    text-decoration:underline;
+    text-decoration: underline;
 }
-p::highlight{
+
+p::highlight {
     font-style: italic;
 }
 
@@ -42,6 +51,13 @@ p::first-line {
 article {
     text-align: center;
     word-spacing: 0.5em;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 1em 1em 1em 1em / 3em 3em 3em 3em;
+    border-color: blueviolet;
+    padding: 1px;
+    margin: 10px;
+    width: fit-content;
 }
 
 option {
