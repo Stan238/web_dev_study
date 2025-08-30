@@ -1,0 +1,20 @@
+form {
+    border: 1px black solid;
+    padding: 15px;
+    margin: 15px;
+    background-color: aqua;
+    font: 500;
+    width: 800px;
+    font-size: small;
+}
+
+form p::first-line {
+    background-color: aqua;
+}
+
+form p::first-letter {
+    font-family: inherit;
+    color: black;
+    font-style: inherit;
+    text-decoration: none;
+}
