@@ -8,11 +8,17 @@ form {
     font-size: small;
 }
 
-form p::first-line {
+form fieldset {
+    display: grid;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
+form label::first-line {
     background-color: aqua;
 }
 
-form p::first-letter {
+form label::first-letter {
     font-family: inherit;
     color: black;
     font-style: inherit;

@@ -45,36 +45,49 @@
                 submitted
             </q>
         </p>
-        <p>
-            Username: <input type="text" name="username" size="8" maxlength="16" />
-        </p>
-        <p>
-            Password: <input type="password" name="password" size="8" maxlength="16" />
-        </p>
-        <p>Your comments</p>
-        <textarea name="comments" cols="20" rows="4" title="Enter your comments..."></textarea>
-        <p>
-            Please choose one option <br />
-            <input type="radio" name="option" value="Yes" /> Yes
-            <input type="radio" name="option" value="No" /> No
-        </p>
-        <p>
-            Confirm agreement<br />
-            <input type="checkbox" name="agreement" value="agree" /> Agree
-        </p>
-        <p>
-            What fruit do you like?
-        </p>
-        <select name="fruit" multiple="multiple">
-            <option value="pear">Pear</option>
-            <option value="apple">Apple</option>
-            <option value="orange">Orange</option>
-            <option value="watermelon">Watermelon</option>
-        </select>
-        <p>Upload file:</p>
-        <input type="file" name="file">
-        <input type="submit" />
-        <input type="hidden" />
+
+        <fieldset>
+            <legend>
+                Login
+            </legend>
+            <label>
+                Username: <input type="text" name="username" size="8" maxlength="16" />
+            </label>
+            <label>
+                Password: <input type="password" name="password" size="8" maxlength="16" />
+            </label>
+            <input type="submit" value="Login" />
+        </fieldset>
+
+        <fieldset>
+            <legend>Review</legend>
+            <label>Your comments <br />
+                <textarea name="comments" cols="20" rows="4" title="Enter your comments..."></textarea>
+            </label>
+
+            <label>Do you like visit our site?
+                <br />
+                <input type="radio" name="option" value="Yes" /> Yes
+                <input type="radio" name="option" value="No" /> No
+            </label>
+            <p>
+                Confirm agreement<br />
+                <input type="checkbox" name="agreement" value="agree" /> Agree
+            </p>
+            <p>
+                What fruit do you like?
+            </p>
+            <select name="fruit" multiple="multiple">
+                <option value="pear">Pear</option>
+                <option value="apple">Apple</option>
+                <option value="orange">Orange</option>
+                <option value="watermelon">Watermelon</option>
+            </select>
+            <p>Upload file:</p>
+            <input type="file" name="file">
+            <input type="submit" />
+            <input type="hidden" />
+        </fieldset>
     </form>
     <hr />
     <ul>
