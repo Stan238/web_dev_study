@@ -39,7 +39,7 @@ form label::first-letter {
     text-decoration: none;
 }
 
-section {
+.selEct {
     align-items: flex-start;
     width: fit-content;
 }
