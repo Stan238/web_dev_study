@@ -6,19 +6,26 @@ form {
     font: 500;
     width: 800px;
     font-size: small;
+    align-items: flex-start;
+    width: fit-content;
 }
 
 form fieldset {
     display: grid;
     /* flex-direction: column; */
     justify-content: space-between;
+    /* allowed  */
+    align-items: flex-start;
+    width: fit-content;
 }
 
 form fieldset label,
-legend {
+form fieldset legend {
     font-size: 1.5em;
     padding: 2px;
     margin: 2px;
+    align-items: flex-start;
+    width: fit-content;
 }
 
 form label::first-line {
@@ -30,4 +37,9 @@ form label::first-letter {
     color: black;
     font-style: inherit;
     text-decoration: none;
+}
+
+section {
+    align-items: flex-start;
+    width: fit-content;
 }
