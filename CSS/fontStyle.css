@@ -37,8 +37,9 @@ p::first-letter {
     font-size: 2em;
     font-family: 'Brush Script MT', 'Trebuchet MS';
     font-style: italic;
-    color: rgb(190, 33, 33);
+    color: rgb(247, 89, 89);
     text-decoration: underline;
+    background-color: rgb(231, 236, 169);
 }
 
 p::highlight {
@@ -46,7 +47,7 @@ p::highlight {
 }
 
 p::first-line {
-    background-color: rgb(236, 169, 169);
+    text-decoration: underline;
 }
 
 
