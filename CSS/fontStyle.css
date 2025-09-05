@@ -9,6 +9,11 @@ body {
     width: fit-content;
 }
 
+main {
+    position: relative;
+    top: auto;
+}
+
 article h1 {
     font-family: 'Algerian', Arial, sans-serif;
     font-style: italic;
