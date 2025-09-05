@@ -1,4 +1,4 @@
-form {
+#ReviewForm {
     border: 1px black solid;
     padding: 15px;
     margin: 15px;
@@ -10,7 +10,7 @@ form {
     width: fit-content;
 }
 
-form fieldset {
+#ReviewForm fieldset {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -19,8 +19,8 @@ form fieldset {
     width: fit-content;
 }
 
-form fieldset label,
-form fieldset legend {
+#ReviewForm fieldset label,
+#ReviewForm fieldset legend {
     font-size: 1.5em;
     padding: 2px;
     margin: 2px;
@@ -28,11 +28,11 @@ form fieldset legend {
     width: fit-content;
 }
 
-form label::first-line {
+#ReviewForm label::first-line {
     background-color: aqua;
 }
 
-form label::first-letter {
+#ReviewForm label::first-letter {
     font-family: inherit;
     color: black;
     font-style: inherit;

@@ -82,3 +82,16 @@ a:active {
     margin: 2px;
     padding: 2px;
 }
+
+#LoginForm {
+    font-size: 0.5em;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* allowed  */
+    align-items: flex-start;
+    width: fit-content;
+}

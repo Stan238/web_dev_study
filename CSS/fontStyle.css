@@ -80,3 +80,7 @@ option {
 input:focus {
     color: rgb(255, 0, 8);
 }
+
+details {
+    width: 300px;
+}

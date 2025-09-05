@@ -20,10 +20,24 @@
                 Contact information
             </summary>
             <ul>
-                <li>Address</li>
+                <li id="Address"> Address </li>
                 <li><a href="mailto:anyName@some.com">E-mail</a></li>
             </ul>
         </details>
+        <form id="LoginForm">
+            <fieldset>
+                <legend>
+                    Login
+                </legend>
+                <label>
+                    Username: <input type="text" name="username" size="8" maxlength="16" />
+                </label>
+                <label>
+                    Password: <input type="password" name="password" size="8" maxlength="16" />
+                </label>
+                <input type="submit" value="Login" />
+            </fieldset>
+        </form>
     </header>
     <main>
         <br />
@@ -44,7 +58,7 @@
             <iframe src="./DinnerRoll.html" width="320" height="230" frameborder="no"></iframe>
         </article>
         <hr />
-        <form action="" method="get">
+        <form action="#" method="get" id="ReviewForm">
             <details>
                 <summary>
                     Form with not determine action and method sets as "get".
@@ -57,18 +71,7 @@
                 </p>
             </details>
 
-            <fieldset>
-                <legend>
-                    Login
-                </legend>
-                <label>
-                    Username: <input type="text" name="username" size="8" maxlength="16" />
-                </label>
-                <label>
-                    Password: <input type="password" name="password" size="8" maxlength="16" />
-                </label>
-                <input type="submit" value="Login" />
-            </fieldset>
+
 
             <fieldset>
                 <legend>Review</legend>
