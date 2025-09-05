@@ -7,11 +7,12 @@ body {
     flex-direction: column;
     align-self: flex-start;
     width: fit-content;
+    /* overflow: hidden; */
 }
 
 main {
     position: relative;
-    top: auto;
+    top: 70px;
 }
 
 article h1 {

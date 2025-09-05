@@ -15,12 +15,15 @@
     <header>
         <a href="index.html"><img src="./Images/Home_icon.png" alt="home" title="Home"></a>
         <a href="About.html"> About</a>
-        <ul>
-            Contact information
-            <li>Address</li>
-            <li><a href="mailto:anyName@some.com">E-mail</a></li>
-        </ul>
-
+        <details>
+            <summary>
+                Contact information
+            </summary>
+            <ul>
+                <li>Address</li>
+                <li><a href="mailto:anyName@some.com">E-mail</a></li>
+            </ul>
+        </details>
     </header>
     <main>
         <br />
@@ -42,15 +45,17 @@
         </article>
         <hr />
         <form action="" method="get">
-            <p>
-                Form with not determine action and method sets as "get". <br />
-                <q>
+            <details>
+                <summary>
+                    Form with not determine action and method sets as "get".
+                </summary>
+                <p>
                     Every form requires an action attribute.
                     Its
                     value is the URL for the page on the server that will receive the information in the form when it is
                     submitted
-                </q>
-            </p>
+                </p>
+            </details>
 
             <fieldset>
                 <legend>
