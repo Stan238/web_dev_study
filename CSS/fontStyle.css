@@ -45,9 +45,9 @@ p::first-letter {
     font-style: italic;
     color: rgb(247, 89, 89);
     text-decoration: underline;
-    <<<<<<< HEAD background-color: rgb(24, 64, 119);
-    =======background-color: rgb(231, 236, 169);
-    >>>>>>>c0fc4016988a845efd2c31b9cfac81ac2309196e
+    background-color: rgb(24, 64, 119);
+    background-color: rgb(231, 236, 169);
+
 }
 
 p::highlight {
@@ -55,9 +55,9 @@ p::highlight {
 }
 
 p::first-line {
-    <<<<<<< HEAD font-weight: 700;
-    =======text-decoration: underline;
-    >>>>>>>c0fc4016988a845efd2c31b9cfac81ac2309196e
+    font-weight: 700;
+    text-decoration: underline;
+
 }
 
 
