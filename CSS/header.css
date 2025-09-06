@@ -1,5 +1,11 @@
 header {
-    background-color: rgb(229, 227, 208);
+    position: fixed;
+    top: 0px;
+    left: 1px;
+    width: 99dvw;
+    z-index: 10;
+    opacity: 100%;
+    background-color: rgb(224, 239, 111);
     font-size: 1.5em;
     font-style: italic;
     display: flex;
@@ -7,6 +13,7 @@ header {
     margin: 2px;
     padding: 2px;
     text-align: center;
+    height: auto;
 }
 
 header img {
@@ -15,6 +22,35 @@ header img {
     margin: 2px;
     padding: 2px;
 }
+
+header ul {
+    list-style: none;
+    /* visibility: visible; */
+}
+
+/* header ul:hover {
+    visibility: visible;
+} */
+
+header ul li {
+    padding: 1px;
+    margin: 5px;
+    background-color: rgb(207, 107, 159);
+    transition: opacity 0.6s ease;
+    border-radius: 0 1em 1em 0;
+
+
+}
+
+header ul>:not(:hover) {
+    opacity: 0.5;
+}
+
+header ul> :hover {
+    opacity: 1;
+    background-color: azure;
+}
+
 
 header a {
     text-align: center;
@@ -36,7 +72,7 @@ a:visited {
 }
 
 a:hover {
-    font-size: 19px;
+    /* font-size: 19px; */
     margin: 2px;
     padding: 2px;
 }
@@ -45,4 +81,57 @@ a:active {
     color: darkcyan;
     margin: 2px;
     padding: 2px;
+}
+
+#LoginForm {
+    font-size: 0.5em;
+}
+
+#LoginForm fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* allowed  */
+    /* align-items: flex-start;
+    width: fit-content; */
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    text-align: right;
+    align-items: center;
+    align-content: center;
+    width: auto;
+    padding: 2px;
+
+}
+
+#LoginForm legend {
+    background-color: aliceblue;
+    border: 1px solid #dcdcdc;
+    border-radius: 0.4em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#LoginForm label {
+    margin: 0.1em;
+    /* text-align: right; */
+}
+
+#LoginForm input {
+    width: 7em;
+}
+
+#LoginForm label div {
+    display: inline-block;
+    width: 4.5em;
+    padding: 1px;
+    margin: 1px;
+}
+
+#LoginForm input[type="submit"] {
+    display: inline-block;
+    color: #5c6eb9;
+    border: 1px solid black;
+    border-radius: 0.4em;
+    width: 5em;
 }

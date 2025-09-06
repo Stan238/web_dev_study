@@ -1,0 +1,45 @@
+#ReviewForm {
+    border: 1px black solid;
+    padding: 15px;
+    margin: 15px;
+    background-color: aqua;
+    font: 500;
+    width: 800px;
+    font-size: small;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+#ReviewForm fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* allowed  */
+    align-items: flex-start;
+    width: fit-content;
+}
+
+#ReviewForm fieldset label,
+#ReviewForm fieldset legend {
+    font-size: 1.5em;
+    padding: 2px;
+    margin: 2px;
+    align-items: flex-start;
+    width: fit-content;
+}
+
+#ReviewForm label::first-line {
+    background-color: aqua;
+}
+
+#ReviewForm label::first-letter {
+    font-family: inherit;
+    color: black;
+    font-style: inherit;
+    text-decoration: none;
+}
+
+.selEct {
+    align-items: flex-start;
+    width: fit-content;
+}

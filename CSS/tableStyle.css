@@ -1,0 +1,33 @@
+table {
+    color: rgb(171, 79, 79);
+    /* border: 2px solid black; */
+    text-align: center;
+    /* background-color: rgb(230, 244, 243); */
+    width: 300px;
+    text-indent: 3px;
+    ;
+}
+
+th {
+    text-transform: uppercase;
+    border-top: 2px solid black;
+    border-bottom: 1px solid black;
+}
+
+tr {
+
+    margin: 1px;
+    padding: auto;
+}
+
+tr:nth-of-type(even) {
+    background-color: rgb(195, 241, 198);
+}
+
+tr:hover {
+    background-color: rgb(179, 229, 229);
+}
+
+.Amount {
+    text-align: right;
+}
