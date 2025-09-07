@@ -128,19 +128,22 @@ a:active {
     width: 5em;
 }
 
-header div {
+#list {
     display: flex;
     flex-direction: column;
-    font-size: 0.5em;
+    font-size: 1rem;
 
 }
 
-header div button:hover {
-    visibility: visible;
+#list p:hover>button {
+    display: block;
 }
 
+#list p button {
+    display: none;
+}
 
-header button {
+#list button {
     padding: 1px;
     margin: 5px;
     background-color: rgb(207, 107, 159);
