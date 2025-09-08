@@ -111,37 +111,43 @@ a:active {
     width: 5em;
 }
 
+.box {
+    border: 1px solid black;
+
+}
+
 #list {
     display: flex;
     flex-direction: column;
     font-size: 1em;
-
-}
-
-#list ul {
     list-style: none;
     list-style-position: inside;
     text-align: start;
 }
 
-#list ul> :hover {
+/* 
+#list> :hover {
     opacity: 1;
 }
 
-#list ul ul {
+#list #SeconLayer {
     list-style: none;
     transition: display 6s ease;
     /* visibility: visible; */
 }
 
-#list ul li ul {
+#list #SeconLayer {
     display: none;
     list-style-position: inside;
     text-align: start;
 }
 
-#list ul:hover li ul {
+#list :hover #SeconLayer {
     display: block;
+}
+
+#list :hover #SeconLayer>#Contact ul {
+    display: none;
 }
 
 #Contact li ul {
@@ -154,7 +160,7 @@ a:active {
     display: block;
 }
 
-#list ul ul li {
+#list .box {
     padding: 1px;
     margin: 5px;
     background-color: rgb(207, 107, 159);
@@ -162,7 +168,9 @@ a:active {
     border-radius: 0 1em 1em 0;
 }
 
-#list ul ul>:not(:hover) {
+#list .box>:not(:hover) {
     opacity: 1;
     background-color: aqua;
 }
+
+*/
