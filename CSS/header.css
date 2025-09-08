@@ -138,6 +138,7 @@ a:active {
 #About:hover>.About,
 #Contact:hover>.Contact {
     display: inline;
+    background-color: #49bb5a;
 }
 
 #list .box {
