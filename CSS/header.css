@@ -144,6 +144,16 @@ a:active {
     display: block;
 }
 
+#Contact li ul {
+    display: none;
+    list-style-position: inside;
+    text-align: start;
+}
+
+#Contact:hover li {
+    display: block;
+}
+
 #list ul ul li {
     padding: 1px;
     margin: 5px;
