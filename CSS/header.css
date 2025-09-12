@@ -58,59 +58,7 @@ a:active {
     padding: 2px;
 }
 
-/* Login Form */
-#LoginForm {
-    font-size: 0.5em;
-}
 
-#LoginForm fieldset {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    /* allowed  */
-    /* align-items: flex-start;
-    width: fit-content; */
-    border: 1px solid #dcdcdc;
-    border-radius: 10px;
-    text-align: right;
-    align-items: center;
-    align-content: center;
-    width: auto;
-    padding: 2px;
-
-}
-
-#LoginForm legend {
-    background-color: aliceblue;
-    border: 1px solid #dcdcdc;
-    border-radius: 0.4em;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#LoginForm label {
-    margin: 0.1em;
-    /* text-align: right; */
-}
-
-#LoginForm input {
-    width: 7em;
-}
-
-#LoginForm label div {
-    display: inline-block;
-    width: 4.5em;
-    padding: 1px;
-    margin: 1px;
-}
-
-#LoginForm input[type="submit"] {
-    display: inline-block;
-    color: #5c6eb9;
-    border: 1px solid black;
-    border-radius: 0.4em;
-    width: 5em;
-}
 
 /* drop menu */
 #list {
