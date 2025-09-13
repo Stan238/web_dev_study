@@ -10,9 +10,14 @@ body {
     /* overflow: hidden; */
 }
 
-main {
+/* main {
     position: relative;
     top: 5em;
+} */
+
+article {
+    display: flex;
+    flex-direction: row;
 }
 
 article h1 {
@@ -25,6 +30,7 @@ article h1 {
     text-indent: 20px;
     text-shadow: 2px 1px #69efec;
     margin: 5px;
+    max-width: 5em;
 
 }
 
