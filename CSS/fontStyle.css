@@ -15,9 +15,16 @@ body {
     top: 5em;
 } */
 
+
+
+
 article {
     display: flex;
     flex-direction: row;
+    scroll-snap-align: center;
+    width: 10em;
+    flex: 0 0 100%;
+
 }
 
 article h1 {
@@ -33,6 +40,16 @@ article h1 {
     max-width: 5em;
 
 }
+
+#scvrollart {
+    width: 60vw;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    gap: 4vw;
+    padding: 1em;
+}
+
 
 p {
     font-family: 'Times New Roman', Times, serif;
