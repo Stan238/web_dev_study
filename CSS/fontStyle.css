@@ -22,9 +22,16 @@ article {
     display: flex;
     flex-direction: row;
     scroll-snap-align: center;
-    width: 10em;
+    width: 5em;
     flex: 0 0 100%;
-
+    text-align: center;
+    word-spacing: 0.5em;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 1em 1em 1em 1em / 3em 3em 3em 3em;
+    border-color: blueviolet;
+    max-width: 800px;
+    min-width: 400px;
 }
 
 article h1 {
@@ -42,7 +49,8 @@ article h1 {
 }
 
 #scvrollart {
-    width: 60vw;
+    max-width: 700px;
+    min-width: 500px;
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     display: flex;
@@ -84,17 +92,7 @@ p::first-line {
 }
 
 
-article {
-    text-align: center;
-    word-spacing: 0.5em;
-    border-width: 3px;
-    border-style: solid;
-    border-radius: 1em 1em 1em 1em / 3em 3em 3em 3em;
-    border-color: blueviolet;
-    padding: 1px;
-    margin: 10px;
-    width: fit-content;
-}
+
 
 option {
     font-family: 'Pristina', Arial, sans-serif;
