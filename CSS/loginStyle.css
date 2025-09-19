@@ -1,6 +1,7 @@
 /* Login Form */
 #LoginForm {
     font-size: 0.5em;
+    margin: 5px;
 }
 
 #LoginForm fieldset {

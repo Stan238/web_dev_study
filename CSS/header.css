@@ -2,7 +2,7 @@ header {
     /* position: fixed;
     top: 0px;
     left: 1px; */
-    width: 99dvw;
+    width: 98dvw;
     z-index: 10;
     opacity: 100%;
     background-color: rgb(235, 160, 38);
@@ -10,8 +10,8 @@ header {
     font-style: italic;
     display: flex;
     justify-content: space-between;
-    margin: 2px;
-    padding: 2px;
+    margin: 5px;
+    padding: 10px;
     text-align: center;
     justify-content: baseline;
     height: 90px;
