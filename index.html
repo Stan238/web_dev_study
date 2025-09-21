@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My web development playground</title>
     <link href="CSS/header.css" rel="stylesheet" type="text/css">
-    <link href="CSS/formStyle.css" rel="stylesheet" type="text/css" />
+    <!-- <link href="CSS/formStyle.css" rel="stylesheet" type="text/css" /> -->
     <link href="CSS/fontStyle.css" rel="stylesheet" type="text/css" />
     <link href="CSS/loginStyle.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/x-icon" href="./Images/Home_icon.png" />
@@ -15,25 +15,41 @@
 <body>
     <header>
 
-        <div id="list">
-            <div id="firstBox">
-                <a href="index.html"><img src="./Images/Home_icon.png" alt="home" title="Home"></a>
-            </div>
+        <nav id="list">
+            <div id="firstBox"> <img src="" alt="simple image"></div>
+            <ul>
+                <li id="Home">
+                    <a href="index.html"><img src="./Images/Home_icon.png" alt="home" title="Home"></a>
+                </li>
 
-            <div id="About" class="SeconLayer">
-                <p class="box"> About:</p>
-                <a class="box About" href="History.html">History</a>
-                <a class="box About" href="History.html">Goal</a>
-                <a class="box About" href="History.html"> Member</a>
-            </div>
-            <div id="Contact" class="SeconLayer">
-                <p class="box">Contact</p>
-                <a class="box Contact" id="Address" href="History.html"> Address </a>
-                <a class="box Contact" href="mailto:anyName@some.com">E-mail</a>
+                <li id="About" class="SeconLayer">
+                    <p class="box"> About:</p>
+                    <ul>
+                        <li>
+                            <a class="box About" href="History.html">History</a>
+                        </li>
+                        <li>
+                            <a class="box About" href="History.html">Goal</a>
+                        </li>
+                        <li>
+                            <a class="box About" href="History.html"> Member</a>
+                        </li>
+                    </ul>
+                </li>
+                <li id="Contact" class="SeconLayer">
+                    <p class="box">Contact</p>
+                    <ul>
 
-            </div>
-
-        </div>
+                        <li>
+                            <a class="box Contact" id="Address" href="History.html"> Address </a>
+                        </li>
+                        <li>
+                            <a class="box Contact" href="mailto:anyName@some.com">E-mail</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
         <h1>Welcome to my site</h1>
         <form id="LoginForm">
             <fieldset>
@@ -201,6 +217,7 @@
             <abbr title="Hyper Text Markup Language">HTML</abbr>
         </p>
     </main>
+    <footer> &COPY;2025 Stan U</footer>
 </body>
 
 </html>

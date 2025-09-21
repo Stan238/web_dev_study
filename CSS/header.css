@@ -1,9 +1,12 @@
+@import url('formStyle.css');
+
+
 header {
     /* position: fixed;
     top: 0px;
     left: 1px; */
     width: 98dvw;
-    z-index: 10;
+    /* z-index: 10; */
     opacity: 100%;
     background-color: rgb(235, 160, 38);
     font-size: 1.5em;
@@ -23,9 +26,6 @@ header img {
     margin: 2px;
     padding: 2px;
 }
-
-
-
 
 header a {
     text-align: center;
@@ -67,6 +67,7 @@ a:active {
     margin: 0;
     font-size: 1em;
     text-align: start;
+    z-index: 15;
 }
 
 #list .SeconLayer {
