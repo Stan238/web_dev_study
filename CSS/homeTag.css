@@ -1,0 +1,41 @@
+#homeTag {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 2px 2px 2px 2px/ 3px 3px 3px 3px;
+    transition: all 0.6s ease-in-out;
+}
+
+#homeTag+#navList {
+    transition: all 2s ease-in-out;
+}
+
+#homeTag:hover {
+    background-color: blue;
+    rotate: 45deg;
+    border-radius: 10px 10px 10px 10px/ 15px 15px 15px 15px;
+    cursor: pointer;
+}
+
+#homeTag:active {
+    background-color: green;
+    rotate: 90deg;
+    border-radius: 20px 20px 20px 20px/ 30px 30px 30px 30px;
+}
+
+#navList {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #dcc3c3;
+    width: fit-content;
+}
+
+#homeTag:hover~#navList {
+
+    display: block;
+    cursor: pointer;
+
+}
