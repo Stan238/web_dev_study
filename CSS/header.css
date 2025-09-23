@@ -1,4 +1,5 @@
 @import url('formStyle.css');
+@import url('homeTag.css');
 
 
 header {
@@ -61,25 +62,10 @@ a:active {
 
 
 /* drop menu */
-#list {
-    /* Make list positon and direction */
-    display: flex;
-    flex-direction: column;
-    /* form of list */
-    z-index: 15;
-    margin: 0;
-    font-size: 1em;
-    text-align: start;
 
-}
-
-#list .SeconLayer {
+#navList .SeconLayer {
     display: none;
     text-align: start;
-}
-
-#list:hover .SeconLayer {
-    display: block;
 }
 
 #About .About,
@@ -94,11 +80,11 @@ a:active {
     background-color: #49bb5a;
 }
 
-#list p {
+#navList p {
     display: inline;
 }
 
-#list .box {
+#navList .box {
     font-size: 1em;
     padding: 0px;
     margin: 0px;
@@ -111,7 +97,7 @@ a:active {
     width: 4em;
 }
 
-#list .box:not(:hover) {
+#navList .box:not(:hover) {
     opacity: 0.9;
     background-color: rgb(113, 241, 241);
 }
