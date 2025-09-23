@@ -6,11 +6,7 @@
     transition: all 0.6s ease-in-out;
 }
 
-#homeTag+#navList {
-    transition: all 2s ease-in-out;
-}
-
-#homeTag:hover {
+#navList:hover #homeTag {
     background-color: blue;
     rotate: 45deg;
     border-radius: 10px 10px 10px 10px/ 15px 15px 15px 15px;
@@ -24,18 +20,43 @@
 }
 
 #navList {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #dcc3c3;
-    width: fit-content;
+    /* background-color: #dcc3c3; */
+    width: 30px;
+    height: 30px;
+    text-justify: distribute;
+    justify-content: space-around;
+    transition: all 2s ease-in-out;
 }
 
-#homeTag:hover~#navList {
 
+.listNav {
+    display: none;
+}
+
+#navList:hover {
+    width: 50px;
+    height: 100px;
+    background-color: rgb(235, 160, 38);
+    border-radius: 5px 5px 5px 5px/ 10px 10px 10px 10px;
+    padding: 5px;
+    margin: 0;
+    text-align: justify;
+    list-style-type: none;
+    overflow: hidden;
+    text-justify: distribute;
+    justify-content: space-around;
+    transition: all 2s ease-in-out;
+}
+
+#navList:hover>li {
     display: block;
     cursor: pointer;
-
+    width: 300px;
 }

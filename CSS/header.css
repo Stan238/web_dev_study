@@ -62,12 +62,15 @@ a:active {
 
 /* drop menu */
 #list {
+    /* Make list positon and direction */
     display: flex;
     flex-direction: column;
+    /* form of list */
+    z-index: 15;
     margin: 0;
     font-size: 1em;
     text-align: start;
-    z-index: 15;
+
 }
 
 #list .SeconLayer {
