@@ -17,102 +17,103 @@ main {
     position: relative;
     top: 5em;
     z-index: 5;
+}
 
-    .bakery {
-        background: linear-gradient(0.65turn, #025172, #c5ccbf, #d3934f);
-    }
-
-
-    article {
-        display: flex;
-        flex-direction: row;
-        scroll-snap-align: center;
-        width: 5em;
-        flex: 0 0 100%;
-        text-align: center;
-        word-spacing: 0.5em;
-        border-width: 3px;
-        border-style: solid;
-        border-radius: 1em 1em 1em 1em / 3em 3em 3em 3em;
-        border-color: blueviolet;
-        max-width: 800px;
-        min-width: 400px;
-    }
-
-    article h1 {
-        font-family: 'Algerian', Arial, sans-serif;
-        font-style: italic;
-        font-size: 3em;
-        text-decoration: double;
-        word-spacing: 1rem;
-        text-align: center;
-        text-indent: 20px;
-        text-shadow: 2px 1px #69efec;
-        margin: 5px;
-        max-width: 5em;
-
-    }
-
-    #scvrollart {
-        max-width: 700px;
-        min-width: 500px;
-        overflow-x: scroll;
-        scroll-snap-type: x mandatory;
-        display: flex;
-        gap: 4vw;
-        padding: 1em;
-        background-color: rgb(156, 154, 154);
-        scrollbar-shadow-color: aqua;
-    }
+.bakery {
+    background: linear-gradient(0.65turn, #025172, #c5ccbf, #d3934f);
+}
 
 
-    main>p {
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 1.3em;
-        line-height: 2em;
-        min-width: 200px;
-        max-width: 1200px;
-        margin: 2px;
-        padding: 5px;
+article {
+    display: flex;
+    flex-direction: row;
+    scroll-snap-align: center;
+    width: 5em;
+    flex: 0 0 100%;
+    text-align: center;
+    word-spacing: 0.5em;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 1em 1em 1em 1em / 3em 3em 3em 3em;
+    border-color: blueviolet;
+    max-width: 800px;
+    min-width: 400px;
+}
 
-    }
+article h1 {
+    font-family: 'Algerian', Arial, sans-serif;
+    font-style: italic;
+    font-size: 3em;
+    text-decoration: double;
+    word-spacing: 1rem;
+    text-align: center;
+    text-indent: 20px;
+    text-shadow: 2px 1px #69efec;
+    margin: 5px;
+    max-width: 5em;
 
-    main>p::first-letter {
-        font-size: 2em;
-        font-family: 'Brush Script MT', 'Trebuchet MS';
-        font-style: italic;
-        color: rgb(247, 89, 89);
-        text-decoration: underline;
-        background-color: rgb(24, 64, 119);
-        background-color: rgb(231, 236, 169);
+}
 
-    }
-
-    main>p::highlight {
-        font-style: italic;
-    }
-
-    main>p::first-line {
-        font-weight: 700;
-        text-decoration: underline;
-
-    }
+#scvrollart {
+    max-width: 700px;
+    min-width: 500px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    gap: 4vw;
+    padding: 1em;
+    background-color: rgb(156, 154, 154);
+    scrollbar-shadow-color: aqua;
+}
 
 
+main>p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    line-height: 2em;
+    min-width: 200px;
+    max-width: 1200px;
+    margin: 2px;
+    padding: 5px;
+
+}
+
+main>p::first-letter {
+    font-size: 2em;
+    font-family: 'Brush Script MT', 'Trebuchet MS';
+    font-style: italic;
+    color: rgb(247, 89, 89);
+    text-decoration: underline;
+    background-color: rgb(24, 64, 119);
+    background-color: rgb(231, 236, 169);
+
+}
+
+main>p::highlight {
+    font-style: italic;
+}
+
+main>p::first-line {
+    font-weight: 700;
+    text-decoration: underline;
+
+}
 
 
-    option {
-        font-family: 'Pristina', Arial, sans-serif;
-        font-size: 1.5em;
-        text-decoration: double;
-        letter-spacing: 0.5em;
 
-    }
 
-    input:focus {
-        color: rgb(255, 0, 8);
-    }
+option {
+    font-family: 'Pristina', Arial, sans-serif;
+    font-size: 1.5em;
+    text-decoration: double;
+    letter-spacing: 0.5em;
 
-    details {
-        width: 300px;
-    }
+}
+
+input:focus {
+    color: rgb(255, 0, 8);
+}
+
+details {
+    width: 300px;
+}

@@ -1,7 +1,9 @@
 /* Login Form */
 #LoginForm {
+    display: absolute;
     font-size: 0.5em;
     margin: 5px;
+    /* flex-grow: 1; */
 }
 
 #LoginForm fieldset {
