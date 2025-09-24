@@ -19,6 +19,7 @@ header {
     text-align: center;
     justify-content: baseline;
     height: 90px;
+    z-index: 15;
 }
 
 header img {
@@ -57,47 +58,4 @@ a:active {
     color: darkcyan;
     margin: 2px;
     padding: 2px;
-}
-
-
-
-/* drop menu */
-
-#navList .SeconLayer {
-    display: none;
-    text-align: start;
-}
-
-#About .About,
-#Contact .Contact {
-    display: none;
-    text-align: start;
-}
-
-#About:hover>.About,
-#Contact:hover>.Contact {
-    display: inline;
-    background-color: #49bb5a;
-}
-
-#navList p {
-    display: inline;
-}
-
-#navList .box {
-    font-size: 1em;
-    padding: 0px;
-    margin: 0px;
-    background-color: rgb(235, 136, 187);
-    transition: opacity 0.6s ease;
-    transition: background-color 0.6s ease;
-    border-radius: 0.2em;
-    text-align: center;
-    border: 1px solid black;
-    width: 4em;
-}
-
-#navList .box:not(:hover) {
-    opacity: 0.9;
-    background-color: rgb(113, 241, 241);
 }
