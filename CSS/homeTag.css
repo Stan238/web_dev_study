@@ -31,8 +31,10 @@
     transition: all 0.6s ease-in-out;
 }
 
-
-
+/* attribute some element li placed before second leyer of list  */
+#About {
+    display: flex;
+}
 
 /* Animation squer reaction */
 #navList:hover #homeTag {
@@ -70,35 +72,45 @@
 }
 
 /* make list inside list with out style and not displaying */
-.listNav .Secondlist {
-    list-style-type: none;
+.Secondlist {
+    display: flex;
+}
+
+.Secondlist ul {
     display: none;
-    position: absolute;
+    padding: 0;
+    margin: 0;
 }
 
 .Secondlist li {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
     margin: 5px;
     padding: 5px;
 }
 
 
 /* make list inside list displaying */
-.listNav:hover ul {
-    display: block;
+.listNav:hover>ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: justify;
+    text-justify: distribute;
+    transition: all 1s ease-in-out;
+
+}
+
+/* make list inside list displaying */
+#About:hover+li .About,
+#Contact:hover+li .Contact {
+    display: flex;
+    flex-direction: row;
     list-style-type: none;
     text-align: justify;
     text-justify: distribute;
     transition: all 1s ease-in-out;
     margin: 5px;
     padding: 1px;
-}
-
-/* make list inside list displaying */
-#About:hover+li .About,
-#Contact:hover+li .Contact {
-    display: block;
-    list-style-type: none;
-    text-align: justify;
-    text-justify: distribute;
-    transition: all 1s ease-in-out;
 }
