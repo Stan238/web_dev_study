@@ -70,8 +70,9 @@
 }
 
 /* make list inside list with out style and not displaying */
-.liost2nav {
-    display: flex;
+.About,
+.Contact {
+    display: none;
 }
 
 .secondLayer {
@@ -82,25 +83,9 @@
     padding: 0px;
 }
 
-
-/* make list inside list displaying */
-.listNav:hover>ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    text-align: justify;
-    text-justify: distribute;
-    transition: all 1s ease-in-out;
-
-}
-
-/* make list inside list displaying */
-#About:hover+li .About,
-#Contact:hover+li .Contact {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    text-align: justify;
-    text-justify: distribute;
+/* display list inside list */
+ul:has(#About:hover) .About,
+ul:has(#Contact:hover) .Contact {
+    display: block;
     transition: all 1s ease-in-out;
 }
