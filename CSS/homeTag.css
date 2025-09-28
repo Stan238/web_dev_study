@@ -50,8 +50,6 @@
     height: fit-content;
     background-color: rgb(174, 117, 26);
     border-radius: 5px 5px 5px 5px/ 10px 10px 10px 10px;
-    padding: 5px;
-    margin: 0;
     text-align: justify;
     list-style-type: none;
     /* overflow: hidden; */
@@ -72,22 +70,16 @@
 }
 
 /* make list inside list with out style and not displaying */
-.Secondlist {
+.liost2nav {
     display: flex;
 }
 
-.Secondlist ul {
-    display: none;
-    padding: 0;
-    margin: 0;
-}
-
-.Secondlist li {
+.secondLayer {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    margin: 5px;
-    padding: 5px;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -111,6 +103,4 @@
     text-align: justify;
     text-justify: distribute;
     transition: all 1s ease-in-out;
-    margin: 5px;
-    padding: 1px;
 }
