@@ -1,14 +1,39 @@
-#navList {
+:root {
+    --main-color-light: #e0419b;
+    --main-color-dark: #2c3e50;
+    --font-size: 24px;
+    --color-background: #ade1a5;
+}
+
+#list1 {
     display: flex;
     flex-direction: column;
     text-align: justify;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    cursor: pointer;
     text-justify: distribute;
     justify-content: space-around;
-    transition: all 1s ease-in-out;
+    transition: all 5s ease-in-out;
+}
+
+.list2 {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 100%;
+    list-style: none inside none;
+    margin: 0;
+    padding: 0;
+    transition: all 5s ease-in-out;
+}
+
+.list2v1 {
+    display: flex;
+    flex-direction: column;
+    list-style: none inside none;
+    margin: 0;
+    padding: 0;
 }
 
 /*  created squer */
@@ -22,30 +47,24 @@
 
 /* style box */
 .box {
-    border: 1px solid black;
-    padding: 3px;
-    margin: 3px;
     width: 100px;
-    background-color: rgb(244, 213, 213);
-    border-radius: 5px 5px 5px 5px/ 10px 10px 10px 10px;
-    transition: all 0.6s ease-in-out;
-}
-
-/* attribute some element li placed before second leyer of list  */
-#About {
-    display: flex;
+    margin: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid var(--main-color-light);
+    background-color: var(--color-background);
 }
 
 /* Animation squer reaction */
-#navList:hover #homeTag {
-    background-color: blue;
+#list1:hover #homeTag {
+    background-color: var(--main-accent-color);
     rotate: 90deg;
     border-radius: 10px 10px 10px 10px/ 15px 15px 15px 15px;
     cursor: pointer;
 }
 
 /* Chenging whole block nav */
-#navList:hover {
+#list1:hover {
     width: auto;
     height: fit-content;
     background-color: rgb(174, 117, 26);
@@ -55,37 +74,27 @@
     /* overflow: hidden; */
     text-justify: distribute;
     justify-content: space-around;
-    transition: all 1s ease-in-out;
+    transition: all 5s ease-in-out;
 }
 
 /* make list not displaying */
-.listNav {
+.list1v2 {
     display: none;
 }
 
+
+
 /* display list */
-#navList:hover .listNav {
+#list1:hover .list1v2 {
     display: block;
-    transition: all 1s ease-in-out;
+    transition: all 5s ease-in-out;
 }
 
 /* make list inside list with out style and not displaying */
-.About,
-.Contact {
+.list2v2 {
     display: none;
 }
 
-.secondLayer {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-}
-
-/* display list inside list */
-ul:has(#About:hover) .About,
-ul:has(#Contact:hover) .Contact {
+.list2:hover .list2v2 {
     display: block;
-    transition: all 1s ease-in-out;
 }
