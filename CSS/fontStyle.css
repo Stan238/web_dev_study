@@ -12,7 +12,6 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-self: flex-start;
     width: fit-content;
     overflow: auto;
     margin: 10px;
