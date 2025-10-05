@@ -24,6 +24,15 @@ main {
     z-index: 5;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-rows: 4pt 1pt;
+    padding: 10px;
+    gap: 10px;
+    background-color: #5a9dd4;
+    justify-content: center;
+}
+
 .bakery {
     background: linear-gradient(0.65turn, #025172, #c5ccbf, #d3934f);
 }
