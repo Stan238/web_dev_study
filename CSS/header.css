@@ -15,7 +15,6 @@ header {
     text-align: center;
     justify-content: baseline;
     height: 90px;
-    z-index: 15;
     position: relative;
 }
 

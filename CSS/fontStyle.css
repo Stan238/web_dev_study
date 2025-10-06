@@ -2,30 +2,41 @@
     --main-bg-color: lightcyan;
     --main-text-color: darkslategray;
     --main-accent-color: blueviolet;
+    --main-tag-color: red;
+    --font-size: 24px;
 }
 
 body {
     background-color: var(--main-bg-color);
     font-family: 'Times', serif;
-    font-size: 16px;
+    font-size: var(--font-size);
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: fit-content;
-    overflow: auto;
-    margin: 10px;
-    z-index: 1;
+    min-height: 100vh;
 }
 
 main {
-    position: relative;
-    top: 5em;
-    z-index: 5;
+
+    flex: 1;
 }
 
 aside {
     background-color: lightgray;
+}
+
+footer {
+    background-color: rgb(73, 7, 7);
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 0;
+    margin-top: 10px;
 }
 
 .grid-container {
