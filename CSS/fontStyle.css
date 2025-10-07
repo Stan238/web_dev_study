@@ -1,13 +1,15 @@
 :root {
     --main-bg-color: lightcyan;
-    --main-text-color: darkslategray;
+    --main-text-color: rgb(24, 11, 8);
     --main-accent-color: blueviolet;
     --main-tag-color: red;
     --font-size: 24px;
+    --color-background-start: #eba026;
+    --color-background-end: #490707;
 }
 
 body {
-    background-color: var(--main-bg-color);
+    background: linear-gradient(to bottom, var(--color-background-start), var(--color-background-end));
     font-family: 'Times', serif;
     font-size: var(--font-size);
     text-align: center;
@@ -16,19 +18,23 @@ body {
     flex-direction: column;
     width: fit-content;
     min-height: 100vh;
+    color: var(--main-text-color);
+
 }
 
 main {
-
     flex: 1;
 }
 
 aside {
-    background-color: lightgray;
+    background: repeating-linear-gradient(45deg, var(--main-bg-color) 100px, var(--main-accent-color) 200px);
+    opacity: 50%;
+    text-wrap: wrap;
+    color: var(--main-text-color);
 }
 
 footer {
-    background-color: rgb(73, 7, 7);
+    /* background-color: #490707; */
     color: white;
     position: relative;
     bottom: 0;
@@ -91,7 +97,6 @@ article h1 {
     gap: 4vw;
     padding: 1em;
     background-color: rgb(156, 154, 154);
-    scrollbar-shadow-color: aqua;
 }
 
 
