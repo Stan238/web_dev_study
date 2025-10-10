@@ -3,7 +3,7 @@
 
 
 header {
-    width: 98dvw;
+    width: 100%;
     opacity: 100%;
     /* background-color: #eba026; */
     font-size: 1.5em;
@@ -14,8 +14,9 @@ header {
     padding: 10px;
     text-align: center;
     justify-content: baseline;
-    height: 90px;
+    /* height: 90px; */
     position: relative;
+    grid-column: span 10;
 }
 
 header h1 {
