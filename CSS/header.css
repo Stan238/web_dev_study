@@ -5,7 +5,8 @@
 header {
     width: 100%;
     opacity: 100%;
-    /* background-color: #eba026; */
+    background-color: #aa997d;
+    opacity: 80%;
     font-size: 1.5em;
     font-style: italic;
     display: flex;
